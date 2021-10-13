@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDE09</title>
+    <style>
+        body{
+            font-family: fantasy;
+        }
+    </style>
+</head>
+<body>
+    <h1><strong><font color="green" size="14">Multimídias.</font></strong></h1>
+    <p>
+        É uma forma de comunicação que <font color="green" size="4">combina diferentes formas de conteúdo, como texto, áudio, imagens ou animações de vídeo</font> em uma única apresentação.<br>
+    </p>
+    <h2><strong><font color="blue" size="14">TAG Iframe.</font></strong></h2>
+    <p>
+        É usada para <font color="blue" size="4">incorporar outro documento ao documento HTML.</font><br>
+        Sintaxe:
+        <img src="imagens/Sintaxe iframe.jpeg" height="35%" width="35%" alt="Sintaxe iframe">
+    </p>
+    <h2><strong><font color="orange" size="14">Tag Vídeo.</font></strong></h2>
+    <p>
+        Essa tag é usada para <font color="orange" size="4">incorporar o conteúdo de um vídeo em um documento, como um clipe de filme ou outros fluxos de vídeo.</font><br>
+        Essa tag contém <font color="orange" size="4">uma ou mais tags com diferentes fontes de vídeo,</font>o navegador escolherá a primeira fonte que suporta.<br>
+        <video poster="Vídeo/Template.png" height="25%" width="25%" controls>
+            <source src="Vídeo/Desfile.mp4" type="video/mp4">
+        </video>
+    </p>
+    <h2><strong><font color="red" size="14">TAG Áudio.</font></strong></h2>
+    <p>
+        É usada para <font color="red" size="4">incorporar o conteúdo de som em um documento, como músicas ou outros fluxos de áudio.</font><br>
+        Essa tag contém <font color="red" size="4">uma ou mais tags com diferentes fontes de áudio,</font>o navegador escolherá a primeira fonte que suporta.<br>
+        <audio preload="metadata" controls>
+            <source src="Áudio/North Oakland Extasy - Squadda B.mp3" type="audio/mp3">
+        </audio>
+    </p>
+    <h2><strong><font color="yellow" size="14">TAG Picture.</font></strong></h2>
+    <p>
+        A tag oferece aos desenvolvedores web mais flexibilidade na especificação de recursos da imagem.<br>
+        O elemento contém duas tags: <font color="yellow" size="4">uma ou mais tags source e uma tag img.</font><br>
+        O navegador procurará o primeiro elemento source <font color="yellow" size="4" >onde a consulta de mídia corresponde à largura da janela de visualização atual,</font>e em seguida, exibirá a imagem adequada. O elemento img é necessário como <font color="yellow" size="4">o último filho do elemento img</font>, como uma opção de fallback se nenhuma das tags de origem corresponder.<br>
+        <picture>
+            <source media="(max-width:300px)" srcset="imagens/Desenho Malévola">
+            <img src="imagens/Desenho Malévola.JPG" height="30%" width="30%" alt="Meu desenho">
+        </picture>
+    </p>
+    </body>
+</html>
