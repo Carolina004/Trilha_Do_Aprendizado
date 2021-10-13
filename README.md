@@ -1,2 +1,2 @@
 # Trilha_Do_Aprendizado
- Repositório do site d web criado por Carolina Sachser Dzendzera
+ Repositório do site de web criado por Carolina Sachser Dzendzera
