@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(38, 150, 255); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    background-color: lightblue; color: darkblue; text-align: center; font-size: 28px;
+}
+h2{
+    color:navy;
+}
+h3{
+    color:blue;
+}
+ul{
+    color:midnightblue;
+}
