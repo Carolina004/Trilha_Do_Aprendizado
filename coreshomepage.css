@@ -1,0 +1,13 @@
+h1{
+    color:black;
+    text-align: center;
+    border: solid 4px rgb(180, 0, 0);
+    background-color: rgb(224,255,255);
+    margin: 50px;
+    padding: 10px;
+}
+
+ol{
+    border: solid 5px rgb(177, 16, 16);
+    margin: 30px;
+}

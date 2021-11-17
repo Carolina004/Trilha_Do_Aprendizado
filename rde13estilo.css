@@ -1,0 +1,109 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    height: 100%;
+    margin:50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0,0,128);
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-color: rgb(180, 240, 248);
+}
+
+h1{
+    background-color: rgb(173,216,230);
+    width: 300px;
+    height: 50px;
+    border:4px dashed rgb(25,25,112);
+    padding: 10px;
+}
+
+p{
+    display: inline;
+    background-color: rgb(218, 235, 255);
+    border: solid 2px rgb(0, 0, 87);
+}
+
+span{
+    display: block;
+    color: rgb(0,0,139);
+    background-color: rgb(200, 229, 255);
+    font-weight: bold;
+}
+
+.box1{
+    position: static;
+    background-color: rgb(140, 200, 255);
+    width: 400px;
+    height: 50px;
+    border: solid 2px rgb(0,0,139);
+}
+.box2{
+    position: relative;
+    background-color: rgb(147, 228, 255);
+    bottom: 50px;
+    width: 400px;
+    height: 50px;
+    left: 450px;
+    border: solid 2px rgb(22, 22, 82);
+}
+
+.box3{
+    position: absolute;
+    background-color: rgb(138, 196, 255);
+    width: 400px;
+    height: 50px;
+    top: 500px;
+    left: 500px;
+    border: solid 2px rgb(0, 0, 87);
+}
+
+.box4{
+    position: fixed;
+    background-color: rgb(148, 225, 255);
+    width: 400px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    border: solid 2px rgb(0, 0, 87);
+}
+
+.box5{
+    position: sticky;
+    background-color: rgb(137, 208, 255);
+    bottom: 200px;
+    left: 150px;
+    border: solid 2px rgb(0,0,128);
+}
+
+.layer1{
+    position: relative;
+    bottom: 0px;
+    background-color: rgb(160, 204, 255);
+    width: 80px;
+    height: 70px;
+    left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.layer2{
+    position: relative;
+    bottom: 20px;
+    background-color: rgb(123, 176, 255);
+    width: 80px;
+    height: 70px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
