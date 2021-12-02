@@ -1,20 +1,20 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: linear-gradient(to right,#dba8ff,#16B4F2);
+    background-image: linear-gradient(to right,#4169E1, #87CEEB);
     width: 90%;
     margin: 0 auto;
 }
 
 header{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(149, 71, 250);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4169E1;
     border-radius: 5px;
     margin-top: 10px;
 }
 
 .logo img{
-    width:60%;
-    padding-top:40px;
+    width: 60%;
+    padding-top: 40px;
 }
 
 .n
@@ -25,46 +25,39 @@ header{
 .navegação a{
     float:right;
     display: block;
-    color: rgb(0, 43, 87);
+    color: rgb(0, 125, 167);
     text-decoration: none;
     text-align: right;
     padding: 5px 5px;
-    font-weight: bold;
 }
 
 .navegação a:hover{
-    color: rgb(100, 0, 0);
-    background-color: rgb(106, 253, 255);
+    color: rgb(0,128,128);
+    background-color: rgb(160, 203, 204);
 }
 
 .conteúdo{
-    float:left;
+    float: left;
     margin: 15px 2px 25px 2px;
-    background-color: rgb(151, 243, 255);
+    background-color: rgb(124, 216, 228);
     width: 25.5%;
     text-align: justify;
     padding: 15px;
     border-radius: 5px;
-    box-shadow:10px 10px 10px rgb(0, 0, 70);
+    box-shadow: 10px 10px 10px rgb(25,25,112);
 }
 
 .rodapé{
-    color: rgb(0, 0, 49);
+    color:rgb(0,0,139);
     font-size: 15px;
     text-align: center;
     padding: 20px;
-    font-weight: bold;
 }
 
-@media screen and (max-width:800px){
+ @media screen and (max-width:800px){
     .principal, .conteúdo{
         width: 100%;
         padding: 0;
     }
-}
-
-.ícone img{
-    width: 40%;
-    padding-right: 30px;
-    padding-left: 30px;
-}
+ }
+    
