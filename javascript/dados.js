@@ -8,12 +8,14 @@ for(i=1;i<=5; i++){
     if(sexo=="Masculino"){
         quantidadehomem++;
         idadehomem+=idade;
-        menoresdeidade<=17;
+        menoridadehomem=menoridadehomem;
+        maioridadehomem=maioridadehomem;
     }
     if(sexo=="Feminino"){
         quantidademulher++;
         idademulher+=idade;
-        menoresdeidade<=17;
+        menoridademulher=menoridademulher;
+        maioridademulher=maioridademulher;
     }
 }
 alert("Total de homens:"+quantidadehomem);

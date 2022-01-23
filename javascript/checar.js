@@ -4,9 +4,9 @@ function paridade(){
     var resposta=document.getElementById('resposta');
 
     if(n%multi==0){
-        resposta.innerHTML=n+"é múltiplo de"+multi;
+        resposta.innerHTML=n+" é múltiplo de "+multi;
     }
     else{
-        resposta.innerHTML=n+"não é múltiplo de"+multi;
+        resposta.innerHTML=n+" não é múltiplo de "+multi;
     }
 }
